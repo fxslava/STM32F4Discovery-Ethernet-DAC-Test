@@ -1,0 +1,15 @@
+.\objects\dacfifo.o: DACFIFO.c
+.\objects\dacfifo.o: DACFIFO.h
+.\objects\dacfifo.o: FB3def.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\dacfifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

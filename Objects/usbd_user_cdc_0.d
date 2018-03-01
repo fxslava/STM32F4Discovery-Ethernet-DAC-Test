@@ -1,0 +1,10 @@
+.\objects\usbd_user_cdc_0.o: USBD_User_CDC_0.c
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\rl_usb.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\usb_def.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\usb_cdc.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\usb_hid.h
+.\objects\usbd_user_cdc_0.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\usb_msc.h

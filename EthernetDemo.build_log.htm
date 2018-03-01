@@ -1,0 +1,269 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Vladislav Ovchinnikov, TPU, LIC=Y2BVE-5K72D-BWJ2G-VADB3-SB4KJ-AQE6Y
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: STLink\ST-LINKIII-KEIL_SWO.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\Vladislav\Documents\Keil Projects\RTOX Kvant Ethernet\EthernetDemo.uvproj
+Project File Date:  04/02/2015
+
+<h2>Output:</h2>
+Build target 'EthernetDemoTarget'
+compiling PHY_LAN8720.c...
+linking...
+Program Size: Code=83196 RO-data=2180 RW-data=352 ZI-data=33328  
+".\Objects\EthernetDemo.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ::CMSIS:RTOS:1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0
+   * Component: USART Version: 2.01
+   * Component: Ethernet MAC Version: 2.01
+   * Component: Ethernet PHY Version: 2.00
+   * Component: USB Device Version: 2.01
+   * Component: CORE Version: 3.40.0
+   * Component: DSP Version: 1.4.2
+   * Component: Keil RTX Version: 4.75.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.6.2.0.pack
+                ::Board Support:LED:1.00 (API)
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: LED Version: 1.00
+   * Component: Buttons Version: 1.00
+   * Component: CORE Variant: Debug Version: 6.2.0
+   * Component: ETH Version: 6.2.0
+   * Component: UDP Version: 6.2.0
+   * Component: TCP Version: 6.2.0
+   * Component: LAN8720 Version: 6.00
+   * Component: CORE Version: 6.2.0
+   * Component: Device Version: 6.2.0
+   * Component: CDC Version: 6.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.3.0.pack
+                ::Device:STM32Cube Framework (API)
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 
+   * Component: Startup Version: 2.1.0
+   * Component: Classic Version: 1.1.0
+   * Component: Common Version: 1.1.0
+   * Component: Cortex Version: 1.1.0
+   * Component: DMA Version: 1.1.0
+   * Component: GPIO Version: 1.1.0
+   * Component: PWR Version: 1.1.0
+   * Component: RCC Version: 1.1.0
+   * Component: UART Version: 1.1.0
+   * Component: USART Version: 1.1.0
+   * Component: USART Version: 2.01
+   * Component: Ethernet MAC Version: 2.01
+   * Component: Full-speed Version: 2.04
+   * Component: LED Version: 2.0.0
+   * Component: Buttons Version: 2.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Vladislav\Documents\Keil Projects\RTOX Kvant Ethernet\RTE
+  C:\Users\Vladislav\Documents\Keil Projects\RTOX Kvant Ethernet\RTE\Device\STM32F407VGTx
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Board
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Network\Include
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ::CMSIS Driver:USART:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+
+   * Component: ::CMSIS Driver:Ethernet MAC:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_ETH_MAC.h
+
+   * Component: ::CMSIS Driver:Ethernet PHY:2.00 (API)
+      Include file:  CMSIS\Driver\Include\Driver_ETH_PHY.h
+
+   * Component: ::CMSIS Driver:USB Device:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USBD.h
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: ARM::CMSIS:DSP:1.4.2
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.75.0
+      Include file:  CMSIS_RTX\INC\cmsis_os.h
+      Source file:   CMSIS_RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS_RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS_RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS_RTX\SRC\ARM\SVC_Table.s
+      Library file:  CMSIS_RTX\LIB\ARM\RTX_CM4.lib
+
+   * Component: ::Board Support:LED:1.00 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ::Board Support:Buttons:1.00 (API)
+      Include file:  Board\Board_Buttons.h
+
+   * Component: Keil.MDK-Pro::Network:CORE:Debug:6.2.0
+      Include file:  Network\Include\rl_net.h
+      Source file:   Network\Config\Net_Config.c
+      Source file:   Network\Config\Net_Debug.c
+      Library file:  Network\Lib\ARM\Net_Dbg_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::Network:Interface:ETH:6.2.0
+      Source file:   Network\Config\Net_Config_ETH.h
+
+   * Component: Keil.MDK-Pro::Network:Socket:UDP:6.2.0
+      Source file:   Network\Config\Net_Config_UDP.h
+      Source file:   Network\Template\UDP_Socket.c
+
+   * Component: Keil.MDK-Pro::Network:Socket:TCP:6.2.0
+      Source file:   Network\Config\Net_Config_TCP.h
+      Source file:   Network\Template\TCP_Socket_Server.c
+      Source file:   Network\Template\TCP_Socket_Client.c
+
+   * Component: Keil::CMSIS Driver:Ethernet PHY:LAN8720:6.00
+      Source file:   Network\Driver\PHY_LAN8720.c
+
+   * Component: Keil.MDK-Pro::USB:CORE:6.2.0
+      Include file:  USB\Include\rl_usb.h
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::USB:Device:6.2.0
+      Source file:   USB\Config\USBD_Config.c
+
+   * Component: Keil.MDK-Pro::USB:Device:CDC:6.2.0
+      Source file:   USB\Config\USBD_Config_CDC.h
+      Source file:   USB\Template\USBD_User_CDC.c
+
+   * Component: ::Device:STM32Cube Framework (API)
+
+   * Component: Keil::Device:Startup:2.1.0
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\system_stm32f4xx.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.1.0
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Include file:  MDK\Templates\Inc\main.h
+      Source file:   MDK\Templates\Src\main.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.1.0
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:UART:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+
+   * Component: Keil::Device:STM32Cube HAL:USART:1.1.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c
+
+   * Component: Keil::CMSIS Driver:USART:2.01
+      Source file:   CMSIS\Driver\USART_STM32F4xx.c
+
+   * Component: Keil::CMSIS Driver:Ethernet MAC:2.01
+      Source file:   CMSIS\Driver\EMAC_STM32F4xx.c
+
+   * Component: Keil::CMSIS Driver:USB Device:Full-speed:2.04
+      Source file:   CMSIS\Driver\OTG_FS_STM32F4xx.c
+      Source file:   CMSIS\Driver\USBD_FS_STM32F4xx.c
+
+   * Component: Keil.STM32F4-Discovery::Board Support:LED:2.0.0
+      Source file:   MDK\Boards\ST\STM32F4-Discovery\Common\LED_F4Discovery.c
+
+   * Component: Keil.STM32F4-Discovery::Board Support:Buttons:2.0.0
+      Source file:   MDK\Boards\ST\STM32F4-Discovery\Common\Buttons_F4Discovery.c
+Load "C:\\Users\\Vladislav\\Documents\\Keil Projects\\RTOX Kvant Ethernet\\Objects\\EthernetDemo.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+hernetDemo.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+covery.c
+Target not created.
+M32F4-Discovery\Common\Buttons_F4Discovery.c
+Target not created.
+et MAC:2.01
+      Source file:   CMSIS\Driver\EMAC_STM32F4xx.c
+
+   * Component: Keil::CMSIS Driver:USB Device:Full-speed:2.04
+      Source file:   CMSIS\Driver\OTG_FS_STM32F4xx.c
+      Source file:   CMSIS\Driver\USBD_FS_STM32F4xx.c
+
+   * Component: Keil.STM32F4-Discovery::Board Support:LED:2.0.0
+      Source file:   MDK\Boards\ST\STM32F4-Discovery\Common\LED_F4Discovery.c
+
+   * Component: Keil.STM32F4-Discovery::Board Support:Buttons:2.0.0
+      Source file:   MDK\Boards\ST\STM32F4-Discovery\Common\Buttons_F4Discovery.c
+Load "C:\\Users\\Vladislav\\Documents\\Keil Projects\\RTOX Kvant Ethernet\\Objects\\EthernetDemo.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+\Common\LED_F4Discovery.c
+
+   * Component: Keil.STM32F4-Discovery::Board Support:Buttons:2.0.0
+      Source file:   MDK\Boards\ST\STM32F4-Discovery\Common\Buttons_F4Discovery.c
+Target not created.

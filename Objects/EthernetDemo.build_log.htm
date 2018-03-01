@@ -1,0 +1,291 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Vladislav Ovchinnikov, COLT, LIC=Y2BSB-2IRYA-NRRXL-0SRIX-G59IX-WWTUM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+D:\Documents\Keil Projects\RTOX Kvant I Ethernet\EthernetDemo.uvprojx
+Project File Date:  09/23/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'EthernetDemoTarget'
+compiling stm32f4xx_it.c...
+compiling DACFIFO.c...
+compiling PacketAssembler.c...
+compiling DACTimer.c...
+compiling main.c...
+compiling GPIOModule.c...
+GPIOModule.h(9): warning:  #1295-D: Deprecated declaration InitGPIO - give arg types
+  void InitGPIO();
+GPIOModule.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+GPIOModule.c(36): warning:  #1-D: last line of file ends without a newline
+  }
+GPIOModule.c: 3 warnings, 0 errors
+compiling USBD_User_CDC_0.c...
+compiling stm32f4xx_hal_msp.c...
+GPIOModule.h(9): warning:  #1295-D: Deprecated declaration InitGPIO - give arg types
+  void InitGPIO();
+GPIOModule.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+stm32f4xx_hal_msp.c: 2 warnings, 0 errors
+compiling RTX_Conf_CM.c...
+compiling PHY_LAN8720.c...
+compiling CNCLerp.c...
+compiling EMAC_STM32F4xx.c...
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\EMAC_STM32F4xx.h(46): error:  #35: #error directive: "Ethernet not configured in RTE_Device.h!"
+    #error "Ethernet not configured in RTE_Device.h!"
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\EMAC_STM32F4xx.c: 0 warnings, 1 error
+compiling OTG_FS_STM32F4xx.c...
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\OTG_FS_STM32F4xx.h(40): error:  #35: #error directive: Enable USB OTG Full-speed in RTE_Device.h!
+  #error  Enable USB OTG Full-speed in RTE_Device.h!
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\OTG_FS_STM32F4xx.c: 0 warnings, 1 error
+compiling TCPThread.c...
+GPIOModule.h(9): warning:  #1295-D: Deprecated declaration InitGPIO - give arg types
+  void InitGPIO();
+GPIOModule.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+TCPThread.c: 2 warnings, 0 errors
+compiling DACModule.c...
+DACModule.c(229): warning:  #177-D: variable "vec"  was declared but never referenced
+  	eVector2 vec;
+DACModule.c: 1 warning, 0 errors
+compiling USBD_FS_STM32F4xx.c...
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\OTG_FS_STM32F4xx.h(40): error:  #35: #error directive: Enable USB OTG Full-speed in RTE_Device.h!
+  #error  Enable USB OTG Full-speed in RTE_Device.h!
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\USBD_FS_STM32F4xx.c: 0 warnings, 1 error
+compiling USART_STM32F4xx.c...
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\USART_STM32F4xx.h(69): error:  #35: #error directive: "USART not configured in RTE_Device.h!"
+      #error "USART not configured in RTE_Device.h!"
+C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\CMSIS\Driver\USART_STM32F4xx.c: 0 warnings, 1 error
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_dac.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_dac_ex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_tim_ex.c...
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_tim.c...
+compiling Net_Config.c...
+compiling system_stm32f4xx.c...
+compiling USBD_Config_0.c...
+compiling stm32f4xx_hal_usart.c...
+".\Objects\EthernetDemo.axf" - 4 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.6.2.0.pack
+                Keil.MDK-Pro::Network:Socket:TCP:6.2.0
+                Keil MDK-ARM Professional Middleware for ARM Cortex-M based devices
+   * Component: TCP Version: 6.2.0
+   * Component: ETH Version: 6.2.0
+   * Component: CORE Variant: Release Version: 6.2.0
+   * Component: CORE Version: 6.2.0
+   * Component: Device Version: 6.2.0
+   * Component: CDC Version: 6.2.0
+   * Component: LAN8720 Version: 6.00
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ::CMSIS Driver:USART:2.01 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: USART Version: 2.01
+   * Component: USB Device Version: 2.01
+   * Component: Ethernet PHY Version: 2.00
+   * Component: Ethernet MAC Version: 2.01
+   * Component: RTOS Version: 1.0
+   * Component: CORE Version: 3.40.0
+   * Component: Keil RTX Version: 4.75.0
+   * Component: DSP Version: 1.4.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.9.0.pack
+                Keil::Device:Startup:2.5.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.5.0
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Classic Version: 1.5.0
+   * Component: Common Version: 1.5.0
+   * Component: GPIO Version: 1.5.0
+   * Component: Cortex Version: 1.5.0
+   * Component: DMA Version: 1.5.0
+   * Component: PWR Version: 1.5.0
+   * Component: DAC Version: 1.5.0
+   * Component: TIM Version: 1.5.0
+   * Component: UART Version: 1.5.0
+   * Component: USART Version: 2.7
+   * Component: RCC Version: 1.5.0
+   * Component: Ethernet MAC Version: 2.6
+   * Component: USART Version: 1.5.0
+   * Component: Full-speed Version: 2.15
+
+<h2>Collection of Component include folders:</h2>
+  D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\Device\STM32F407VGTx
+  D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\_EthernetDemoTarget
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Network\Include
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil.MDK-Pro::Network:Socket:TCP:6.2.0
+      Source file:   Network\Template\TCP_Socket_Server.c
+      Source file:   Network\Config\Net_Config_TCP.h
+      Source file:   Network\Template\TCP_Socket_Client.c
+
+   * Component: Keil.MDK-Pro::Network:Interface:ETH:6.2.0
+      Source file:   Network\Config\Net_Config_ETH.h
+
+   * Component: Keil.MDK-Pro::Network:CORE:Release:6.2.0
+      Source file:   Network\Config\Net_Config.c
+      Include file:  Network\Include\rl_net.h
+      Library file:  Network\Lib\ARM\Net_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::USB:CORE:6.2.0
+      Include file:  USB\Include\rl_usb.h
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::USB:Device:6.2.0
+      Source file:   USB\Config\USBD_Config.c
+
+   * Component: Keil.MDK-Pro::USB:Device:CDC:6.2.0
+      Source file:   USB\Template\USBD_User_CDC.c
+      Source file:   USB\Config\USBD_Config_CDC.h
+
+   * Component: Keil::CMSIS Driver:Ethernet PHY:LAN8720:6.00
+      Source file:   Network\Driver\PHY_LAN8720.c
+
+   * Component: ::CMSIS Driver:USART:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+
+   * Component: ::CMSIS Driver:USB Device:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USBD.h
+
+   * Component: ::CMSIS Driver:Ethernet PHY:2.00 (API)
+      Include file:  CMSIS\Driver\Include\Driver_ETH_PHY.h
+
+   * Component: ::CMSIS Driver:Ethernet MAC:2.01 (API)
+      Include file:  CMSIS\Driver\Include\Driver_ETH_MAC.h
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.75.0
+      Include file:  CMSIS_RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS_RTX\UserCodeTemplates\Timer.c
+      Include file:  CMSIS_RTX\INC\cmsis_os.h
+      Source file:   CMSIS_RTX\UserCodeTemplates\MemPool.c
+      Library file:  CMSIS_RTX\LIB\ARM\RTX_CM4.lib
+      Source file:   CMSIS_RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS_RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS_RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS_RTX\Templates\RTX_Conf_CM.c
+
+   * Component: ARM::CMSIS:DSP:1.4.2
+      Include file:  CMSIS\Include\arm_math.h
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+
+   * Component: Keil::Device:Startup:2.5.0
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.5.0
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\main.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Source file:   MDK\Templates\Src\main.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+
+   * Component: Keil::Device:STM32Cube HAL:DAC:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:TIM:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+
+   * Component: Keil::Device:STM32Cube HAL:UART:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+
+   * Component: Keil::CMSIS Driver:USART:2.7
+      Source file:   CMSIS\Driver\USART_STM32F4xx.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+
+   * Component: Keil::CMSIS Driver:Ethernet MAC:2.6
+      Source file:   CMSIS\Driver\EMAC_STM32F4xx.c
+
+   * Component: Keil::Device:STM32Cube HAL:USART:1.5.0
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c
+
+   * Component: Keil::CMSIS Driver:USB Device:Full-speed:2.15
+      Source file:   CMSIS\Driver\USBD_FS_STM32F4xx.c
+      Source file:   CMSIS\Driver\OTG_FS_STM32F4xx.c
+Target not created.
+Build Time Elapsed:  00:00:12
+</pre>
+</body>
+</html>
