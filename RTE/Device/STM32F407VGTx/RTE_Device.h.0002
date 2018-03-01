@@ -506,10 +506,10 @@
 
 // <e> USART6 (Universal synchronous asynchronous receiver transmitter) [Driver_USART6]
 // <i> Configuration settings for Driver_USART6 in component ::CMSIS Driver:USART
-#define RTE_USART6                      1
+#define RTE_USART6                      0
 
 //   <o> USART6_TX Pin <0=>PA11 <1=>PC6 <2=>PG14
-#define RTE_USART6_TX_ID                1
+#define RTE_USART6_TX_ID                0
 #if    (RTE_USART6_TX_ID == 0)
 #define RTE_USART6_TX_PORT              GPIOA
 #define RTE_USART6_TX_BIT               11
@@ -524,7 +524,7 @@
 #endif
 
 //   <o> USART6_RX Pin <0=>PA12 <1=>PC7 <2=>PG9
-#define RTE_USART6_RX_ID                1
+#define RTE_USART6_RX_ID                0
 #if    (RTE_USART6_RX_ID == 0)
 #define RTE_USART6_RX_PORT              GPIOA
 #define RTE_USART6_RX_BIT               12
@@ -1834,10 +1834,10 @@
 
 // <e> ETH (Ethernet Interface) [Driver_ETH_MAC0]
 // <i> Configuration settings for Driver_ETH_MAC0 in component ::CMSIS Driver:Ethernet MAC
-#define RTE_ETH                         1
+#define RTE_ETH                         0
 
 //   <e> MII (Media Independent Interface)
-#define RTE_ETH_MII                     0
+#define RTE_ETH_MII                     1
 
 //     <o> ETH_MII_TX_CLK Pin <0=>PC3
 #define RTE_ETH_MII_TX_CLK_PORT_ID      0
@@ -1990,7 +1990,7 @@
 //   </e>
 
 //   <e> RMII (Reduced Media Independent Interface)
-#define RTE_ETH_RMII                    1
+#define RTE_ETH_RMII                    0
 
 //     <o> ETH_RMII_TXD0 Pin <0=>PB12 <1=>PG13
 #define RTE_ETH_RMII_TXD0_PORT_ID       0
@@ -2083,7 +2083,7 @@
 
 
 // <e> USB OTG Full-speed
-#define RTE_USB_OTG_FS                  1
+#define RTE_USB_OTG_FS                  0
 
 //   <e> Device [Driver_USBD0]
 //   <i> Configuration settings for Driver_USBD0 in component ::CMSIS Driver:USB Device

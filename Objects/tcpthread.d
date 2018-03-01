@@ -1,7 +1,7 @@
 .\objects\tcpthread.o: TCPThread.c
 .\objects\tcpthread.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
-.\objects\tcpthread.o: D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h
-.\objects\tcpthread.o: D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\_EthernetDemoTarget\RTE_Components.h
+.\objects\tcpthread.o: E:\Documents\STM32F4Discovery-Ethernet-DAC-Test\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h
+.\objects\tcpthread.o: E:\Documents\STM32F4Discovery-Ethernet-DAC-Test\RTE\_EthernetDemoTarget\RTE_Components.h
 .\objects\tcpthread.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h
 .\objects\tcpthread.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h
 .\objects\tcpthread.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h

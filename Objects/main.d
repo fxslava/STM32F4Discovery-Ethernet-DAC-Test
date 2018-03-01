@@ -5,7 +5,7 @@
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Network\Include\rl_net.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\main.o: D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\_EthernetDemoTarget\RTE_Components.h
+.\objects\main.o: E:\Documents\STM32F4Discovery-Ethernet-DAC-Test\RTE\_EthernetDemoTarget\RTE_Components.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\rl_usb.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\usb_def.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Include\usb_cdc.h
@@ -14,7 +14,7 @@
 .\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include\Driver_USART.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include\Driver_Common.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
-.\objects\main.o: D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h
+.\objects\main.o: E:\Documents\STM32F4Discovery-Ethernet-DAC-Test\RTE\Device\STM32F407VGTx\stm32f4xx_hal_conf.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h

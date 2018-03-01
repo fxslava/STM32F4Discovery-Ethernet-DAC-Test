@@ -23,4 +23,4 @@
 .\objects\stm32f4xx_it.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h
 .\objects\stm32f4xx_it.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h
 .\objects\stm32f4xx_it.o: C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h
-.\objects\stm32f4xx_it.o: D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\_EthernetDemoTarget\RTE_Components.h
+.\objects\stm32f4xx_it.o: E:\Documents\STM32F4Discovery-Ethernet-DAC-Test\RTE\_EthernetDemoTarget\RTE_Components.h

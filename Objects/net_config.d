@@ -21,4 +21,4 @@
 .\objects\net_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Driver\Include\Driver_ETH_PHY.h
 .\objects\net_config.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Network\Include\net_modem.h
 .\objects\net_config.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Network\Include\rl_net.h
-.\objects\net_config.o: D:\Documents\Keil Projects\RTOX Kvant I Ethernet\RTE\_EthernetDemoTarget\RTE_Components.h
+.\objects\net_config.o: E:\Documents\STM32F4Discovery-Ethernet-DAC-Test\RTE\_EthernetDemoTarget\RTE_Components.h

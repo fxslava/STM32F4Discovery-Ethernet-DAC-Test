@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp
+--cpu=Cortex-M4.fp
 ".\objects\stm32f4xx_it.o"
 ".\objects\main.o"
 ".\objects\stm32f4xx_hal_msp.o"
@@ -10,10 +10,8 @@
 ".\objects\usbd_user_cdc_0.o"
 ".\objects\tcpthread.o"
 ".\objects\cnclerp.o"
-".\objects\buttons_f4discovery.o"
-".\objects\led_f4discovery.o"
-"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
-"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\LIB\ARM\RTX_CM4.lib"
 ".\objects\rtx_conf_cm.o"
 ".\objects\phy_lan8720.o"
 ".\objects\emac_stm32f4xx.o"
@@ -37,9 +35,9 @@
 ".\objects\stm32f4xx_hal_usart.o"
 ".\objects\startup_stm32f407xx.o"
 ".\objects\system_stm32f4xx.o"
-"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Network\Lib\ARM\Net_CM3_L.lib"
+"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\Network\Lib\ARM\Net_CM3_L.lib"
 ".\objects\net_config.o"
-"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\USB\Lib\ARM\USB_CM3_L.lib"
+"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.2.0\USB\Lib\ARM\USB_CM3_L.lib"
 ".\objects\usbd_config_0.o"
 --library_type=microlib --strict --scatter ".\Objects\EthernetDemo.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
